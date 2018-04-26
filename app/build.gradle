@@ -25,6 +25,7 @@ dependencies {
     //FlycoDialog
     compile 'com.nineoldandroids:library:2.4.0'
     compile 'com.flyco.dialog:FlycoDialog_Lib:1.2.6@aar'
+//    compile 'com.github.ml3515582:FlycoBanner_Master:V2.0.3@aar'
 
     //FlycoBanner
 //    compile 'com.android.support:support-v4:22.2.1'
