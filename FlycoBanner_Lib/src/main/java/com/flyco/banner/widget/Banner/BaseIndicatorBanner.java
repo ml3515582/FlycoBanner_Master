@@ -16,6 +16,7 @@ import android.widget.LinearLayout;
 import com.flyco.banner.R;
 import com.flyco.banner.anim.BaseAnimator;
 import com.flyco.banner.widget.Banner.base.BaseBanner;
+import com.flyco.banner.widget.Banner.base.IndicatorView;
 
 import java.util.ArrayList;
 
@@ -83,7 +84,7 @@ public abstract class BaseIndicatorBanner<E, T extends BaseIndicatorBanner<E, T>
 
         mLlIndicators.removeAllViews();
         for (int i = 0; i < size; i++) {
-            ImageView iv = new ImageView(mContext);
+            IndicatorView iv = new IndicatorView(mContext);
             iv.setImageDrawable(i == mCurrentPositon ? mSelectDrawable : mUnSelectDrawable);
             LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(mIndicatorWidth,
                     mIndicatorHeight);
